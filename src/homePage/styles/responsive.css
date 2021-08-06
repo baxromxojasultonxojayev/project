@@ -1,0 +1,117 @@
+
+
+
+@media screen and ( max-width: 370px){
+
+  .modal-body .search-section{
+    display: flex;
+  }
+  .modal-body form{
+    position: relative
+  }
+
+  .modal-body .search-input:focus{
+    outline: none;
+  }
+
+  .modal-body .search-input{
+    width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #808080
+  }
+  .modal-body .searchBtn{
+    position: absolute;
+    right: -15%;
+    top: 10%;
+    background-color: transparent !important;
+    outline: none;
+    border: none  ;
+  }
+
+  .responsiveModal .btn{
+    background: transparent !important;
+    color: black !important;
+    border: none;
+  }
+
+  .navigation{
+    padding: 0 20px;
+  }
+  
+  .search-section{
+    display: none;
+  }
+  
+  .icons{
+    display: none;
+  }
+
+  .categories{
+    display: inline;
+    padding: 0;
+  }
+  .links{
+    display: flex;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+  }
+  .categories .btn-group{
+    display: flex;
+    margin: 10px 0;
+  }
+
+  .btn-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-menu{
+    width: 100%;
+  }
+
+  .categories #responsiveIcon{
+    display: block;
+  }
+  #responsiveIcon .icons a{
+    margin: 0 10px 0 0;
+  }
+
+  /* HOME PAGE */
+
+  .home{
+    height: 20rem;
+    background-position: center;
+  }
+
+  .main{
+    display: inline;
+  }
+
+  .main .side-one{
+    margin: 0;
+    padding: 60px 10px;
+  }
+  .main .side-one h3{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .main .side-one p{
+    font-size: 15px;
+  }
+
+  .buttons .button1{
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .buttons .button2{
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .main .side-two{
+    display: none;
+  }
+}

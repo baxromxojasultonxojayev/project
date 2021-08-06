@@ -1,0 +1,80 @@
+.trending{
+  padding: 50px 0 50px;
+}
+
+.trending .title{
+  padding-top: 20px;
+  margin-bottom: 15px; 
+  text-transform: uppercase
+}
+
+.pageTitles{
+  text-align: center;
+}
+
+.pageTitles p{
+  color: #302F2F;
+  font-size: 20px;
+}
+.pageTitles h4{
+  font-weight: bold;
+  color: #111111;
+  font-size: 30px;
+}
+
+
+.trendingCards .col-md-3 .card{
+  border: none !important;
+  cursor: pointer;
+}
+
+.card-header{
+  border-bottom: none !important;
+}
+.card-header img{
+  transition: .5s ease;
+}
+.card-header img:hover{
+  transform: scale(1.2);
+}
+
+.card-body{
+  padding: 10px !important;
+}
+
+.card-body .infoTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoTitle p{
+  margin: 0 ;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.infoTitle span{
+  background-color: #FFF0E9;
+  color: #FF4F04;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-family: sans-serif;
+}
+
+.ads{
+  margin-top: 100px !important;
+}
+
+
+@media screen and (max-width: 330px) {
+  .trending{
+    padding: 20px 30px;
+  }
+
+  .card{
+    margin: 10px;
+  }
+  .card-header img{
+    width: 90%;
+  }
+}

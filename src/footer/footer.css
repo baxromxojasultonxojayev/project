@@ -1,0 +1,50 @@
+
+.footer{
+  padding: 70px 0 70px;
+}
+
+.brand img{
+  width: 18%;
+}
+
+.brandText{
+  width: 72%;
+  color: #302F2F;
+  font-family: sans-serif;
+}
+
+.col-md-4{
+  display: flex;
+}
+.products{
+  margin: 0 25px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.products h4{
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px !important;
+  margin: 0;
+}
+
+.products li{
+  font-size: 15px;
+  width: 130%;
+  margin: 15px 0;
+  font-family: sans-serif;
+}
+a{
+  color: #302F2F !important;
+  text-decoration: none !important;
+}
+a:hover{
+  transition: 1s;
+  color: blue !important;
+}
+
+.textLi{
+  width: 130%;
+}

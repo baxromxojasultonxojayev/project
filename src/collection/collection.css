@@ -1,0 +1,131 @@
+
+
+img{
+  width: 100%;
+}
+
+.cards{
+}
+
+.card-headers{
+  text-align: center;
+  margin: 20px 20px;
+  padding-top: 20px;
+}
+
+.card-body img{
+  transition: .5s ease;
+}
+.card-body img:hover{
+  transform: scale(1.2);
+}
+
+.card{
+  margin: 10px;
+  background: #F5F5F5 !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent !important;
+  border-top: none !important;
+}
+
+.card-footer p{
+  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cardArea:nth-child(2) .card{
+  background: #000;
+  background-color: white;
+}
+
+.card-footer span{
+  background: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: #FF4F04;
+  font-weight: bold;
+}
+
+.productPrice{
+  display: flex;
+  justify-content: space-between;
+}
+
+.productPrice span{
+  background: #000;
+  padding: 8px 15px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.productPrice span:nth-child(2){
+  background: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: #FF4F04;
+  font-weight: bold;
+}
+
+.brand-footer{
+  display: block;
+  background: #000;
+  margin-bottom: -20px!important;
+  background-color: transparent;
+  border-top: 1px solid lightgray !important;
+  /* padding: 0 30px; */
+}
+
+.text p{
+  margin-bottom: 17px;
+  color: #7A7A7A;
+}
+.text h4{
+  font-weight: bold;
+}
+
+
+.exploreBtn:hover{
+  background-color: #707070;
+  color: white !important;
+  transition: .5s;
+}
+
+@media screen and (max-width: 330px){
+  .newcollect{
+    padding: 20px 30px;
+  }
+
+  .card{
+    margin: 10px !important;
+    text-align: center;
+  }
+  p{
+    font-size: 15px !important;
+  }
+  .card-body img{
+    width: 100% !important;
+  }
+
+  .col-md-12 .card{
+      margin: 12xp;
+  }
+
+  .exploreBtn{
+    padding: 15px 60px;
+
+  }
+  .card-footer span{
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 13px !important;
+  }
+  
+}

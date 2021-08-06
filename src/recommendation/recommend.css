@@ -1,0 +1,71 @@
+.smartwatch{
+  background: #F8F8F8F8;
+}
+.smartwatch .title{
+  padding-top: 20px;
+  margin-bottom: 15px; 
+  text-align: center;
+  text-transform: uppercase
+}
+
+.title p{
+  color: #302F2F;
+  font-size: 20px;
+}
+.title h3{
+  font-weight: bold;
+  color: #111111;
+  font-size: 40px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.productCard{
+  padding: 8px;
+}
+
+.productCard img{
+  border-radius: 10px;
+}
+
+.productCard p{
+  text-align: center;
+  margin-top: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.price{
+  background: #F4E4DE;
+  width: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  transform: translate(100px, 0);
+  color: #FF4F04;
+  font-weight: bold;
+}
+
+.buttonArea{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+.exploreBtn:hover{
+  background-color: #707070;
+  color: white !important;
+  transition: .5s;
+}
+
+.buttonArea .exploreBtn{
+  border: 1px solid #707070;
+  text-decoration: none;
+  padding: 18px;
+  border-radius: 5px;
+  color: #302F2F;
+  font-weight: 500;
+}
+
